@@ -1,0 +1,45 @@
+#container{
+    display: grid;
+    grid-template-areas:
+    'inputBox inputBox inputBox inputBox'
+    'sign sign sign sign'
+    'numRow numRow numRow sideBigBtn' 
+    'numRow numRow numRow sideBigBtn' 
+    'numRow numRow numRow sideBigBtn' 
+    'numRow numRow numRow sideBigBtn'; 
+    height: 60vh;
+    width: 40vh;
+}
+
+#input_box{
+    background-color:blue;
+    border-color: ;
+    grid-area: inputBox;
+}
+#big{
+    grid-area: sideBigBtn;
+}
+
+/* .operators{
+    grid-area: sign;
+} */
+
+/* .digit{
+    grid-area: numRow;
+} */
+#operatorAdd{}
+#operatorSubstract{}
+#operatorDivide{}
+#operatorMultiply{}
+#operatorAc{}
+#operatorDot{}
+#medium_digZero{}
+#medium_digOne{}
+#medium_digTwo{}
+#medium_digThree{}
+#medium_digFour{}
+#medium_digFive{}
+#medium_digSix{}
+#medium_digSeven{}
+#medium_digEight
+#medium_digNine{}
