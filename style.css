@@ -14,8 +14,9 @@
 
 #input_box{
     background-color:blue;
-    border-color: ;
+    /* border-color: ; */
     grid-area: inputBox;
+    color: white;
 }
 #big{
     grid-area: sideBigBtn;
@@ -28,7 +29,7 @@
 /* .digit{
     grid-area: numRow;
 } */
-#operatorAdd{}
+/* #operatorAdd{}
 #operatorSubstract{}
 #operatorDivide{}
 #operatorMultiply{}
@@ -43,4 +44,4 @@
 #medium_digSix{}
 #medium_digSeven{}
 #medium_digEight
-#medium_digNine{}
+#medium_digNine{} */
