@@ -4,6 +4,7 @@ let calculators_btn =  Array.from(document.getElementsByTagName("button"));
 calculators_btn.forEach(btn => {
     btn.addEventListener("click", ()=>{
         output.innerText += btn.innerText
+        if(btn.innerText == "AC"){output.innerText = ""}
     })
 })
 
@@ -50,7 +51,3 @@ function csalculatingString(){
     }
     output.innerText = res
 }
-
-// function clearOutput(){
-//     output.innerText = ""
-// }
